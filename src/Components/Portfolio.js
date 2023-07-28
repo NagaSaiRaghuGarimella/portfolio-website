@@ -2,7 +2,7 @@ import React from 'react';
 import facebook from '../Images/facebook.png';
 import tourism from '../Images/tourism.png';
 import acmaintenance from '../Images/ac-maintnance.png';
-import electricity from '../Images/electricity.png';
+import electricity from '../Images/electricity-bill.png';
 import buffet from '../Images/buffet.png';
 import instagram from '../Images/instagram.png';
 import brochill from '../Images/brochill.png';

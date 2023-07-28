@@ -1,14 +1,14 @@
 import React from 'react';
-import rag from '../Images/rag.jpg'
+import rag from '../Images/RaghuImg.JPG'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { Link } from 'react-scroll';
 
-const Home = () => {
+const Home = () => {   
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-24'>
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className='flex flex-col justify-center h-full'>
-          <h2 className='text-4xl sm:text-5xl font-bold text-white '>I am a Full Stack Developer</h2>
+          <h2 className='text-2xl sm:text-5xl font-bold text-white'>I am a Full Stack Developer</h2>
           <p className='text-gray-500 py-4'>
             I have 1 year 3 months of real time experience in Java Backend
             technologies like Spring, Spring Boot, JDBC, Hibernate, ORM,

@@ -10,7 +10,7 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-2xl sm:text-5xl font-bold text-white'>I am a Full Stack Developer</h2>
           <p className='text-gray-500 py-4'>
-            I have 1 year 3 months of real time experience in Java Backend
+            I have 1 year 4 months of real time experience in Java Backend
             technologies like Spring, Spring Boot, JDBC, Hibernate, ORM,
             Spring MVC, RESTFUL Services, MS SQL Server.
             Currently, I am learning React Js and building some projects

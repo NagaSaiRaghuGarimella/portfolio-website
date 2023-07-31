@@ -8,15 +8,11 @@ const About = () => {
                 <div>
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
                 </div>
-                <p className="text-xl mt-14">
+                <p className="text-xl mt-14 ml-4">
                     I have 1 year 4 months of real time experience in Java Backend technologies like Spring, Spring Boot, JDBC, Hibernate, ORM, Spring MVC, RESTFUL Services, MS SQL Server. Currently, I am learning React Js and building some projects on HTML, CSS, JavaScript, Tailwind CSS, React JS.
                 </p>
 
                 <br />
-
-                {/* <p className="text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate odit nemo error adipisci suscipit similique dignissimos tempora? Illum fugit ratione temporibus molestias! Omnis, aliquid tenetur? In natus, dignissimos, perspiciatis sequi eius officia ipsa cum tempore cumque nostrum nulla possimus? Quos sapiente unde dolorum harum reiciendis et voluptas necessitatibus!
-                </p> */}
             </div>
         </div>
     )

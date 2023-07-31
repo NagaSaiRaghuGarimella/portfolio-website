@@ -17,56 +17,56 @@ const Portfolio = () => {
         {
             id: 1,
             src: facebook,
-            link:'https://github.com/NagaSaiRaghuGarimella/FacebookWithTailwind',
-            href:'https://splendid-marshmallow-38aba5.netlify.app/'
+            link: 'https://github.com/NagaSaiRaghuGarimella/FacebookWithTailwind',
+            href: 'https://splendid-marshmallow-38aba5.netlify.app/'
         },
         {
             id: 2,
             src: instagram,
-            link:'https://github.com/NagaSaiRaghuGarimella/Instagram',
-            href:'https://master--bucolic-kulfi-91a735.netlify.app/'
+            link: 'https://github.com/NagaSaiRaghuGarimella/Instagram',
+            href: 'https://master--bucolic-kulfi-91a735.netlify.app/'
         },
         {
             id: 3,
             src: brochill,
-            link:'https://github.com/NagaSaiRaghuGarimella/Brochill',
-            href:'https://magnificent-churros-19e10e.netlify.app/'
+            link: 'https://github.com/NagaSaiRaghuGarimella/Brochill',
+            href: 'https://magnificent-churros-19e10e.netlify.app/'
         },
         {
             id: 4,
             src: login,
-            link:'https://github.com/NagaSaiRaghuGarimella/LoginControlForm',
-            href:'https://cute-starburst-7f4183.netlify.app/'
+            link: 'https://github.com/NagaSaiRaghuGarimella/LoginControlForm',
+            href: 'https://cute-starburst-7f4183.netlify.app/'
         },
         {
             id: 5,
             src: boat,
-            link:'https://github.com/NagaSaiRaghuGarimella/Boat-app',
-            href:'https://raghu-html.netlify.app/'
+            link: 'https://github.com/NagaSaiRaghuGarimella/Boat-app',
+            href: 'https://raghu-html.netlify.app/'
         },
         {
             id: 6,
             src: electricity,
-            link:'https://github.com/NagaSaiRaghuGarimella/ElectricityBill',
-            href:'https://clever-croissant-89f3a8.netlify.app/'
+            link: 'https://github.com/NagaSaiRaghuGarimella/ElectricityBill',
+            href: 'https://clever-croissant-89f3a8.netlify.app/'
         },
         {
             id: 7,
             src: tourism,
-            link:'https://github.com/NagaSaiRaghuGarimella/SingaporeTourism',
-            href:'https://playful-crumble-c72f75.netlify.app/'
+            link: 'https://github.com/NagaSaiRaghuGarimella/SingaporeTourism',
+            href: 'https://playful-crumble-c72f75.netlify.app/'
         },
         {
             id: 8,
             src: buffet,
-            link:'https://github.com/NagaSaiRaghuGarimella/Buffet',
-            href:'https://aesthetic-cobbler-00da61.netlify.app/'
+            link: 'https://github.com/NagaSaiRaghuGarimella/Buffet',
+            href: 'https://aesthetic-cobbler-00da61.netlify.app/'
         },
         {
             id: 9,
             src: acmaintenance,
-            link:'https://github.com/NagaSaiRaghuGarimella/Acmaintanance',
-            href:'https://lustrous-phoenix-479e52.netlify.app/'
+            link: 'https://github.com/NagaSaiRaghuGarimella/Acmaintanance',
+            href: 'https://lustrous-phoenix-479e52.netlify.app/'
         },
 
     ]
@@ -79,9 +79,9 @@ const Portfolio = () => {
                 </div>
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8
             px-12 sm:px-0'>
-                    {portfolios.map(({ id, src, link, href}) => {
+                    {portfolios.map(({ id, src, link, href }) => {
 
-                      return  <div key ={id} className="shadow-md shadow-gray-600 rounded-lg">
+                        return <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                             <img src={src} alt="" className=' w-80 h-52 rounded-md duration-200 hover:scale-105' />
                             <div className='flex items-center justify-center '>
                                 <button className='px-6 py-3 m-4 duration-200 hover:scale-105'><a href={href}>Deploy</a></button>

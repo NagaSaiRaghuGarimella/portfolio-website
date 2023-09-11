@@ -10,11 +10,12 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-2xl sm:text-5xl font-bold text-white'>I am a Full Stack Developer</h2>
           <p className='text-gray-500 py-4'>
-            I have 1 year 4 months of real time experience in Java Backend
-            technologies like Spring, Spring Boot, JDBC, Hibernate, ORM,
-            Spring MVC, RESTFUL Services, MS SQL Server.
-            Currently, I am learning React Js and building some projects
-            on HTML, CSS, JavaScript, Tailwind CSS, React JS.
+          Aspiring for the position of Web Developer where I can
+          use my extensive knowledge of programming languages and 
+          frameworks to develop efficient web applications. I have 
+          good knowledge on technologies like HTML, CSS, Javascript,
+          Tailwind CSS, Styled Components, React JS, Redux, Firebase,
+          Java, JDBC, Spring Boot, RESTFUL Services, MS SQL.
           </p>
           <div>
             <Link to="portfolio" className='group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>

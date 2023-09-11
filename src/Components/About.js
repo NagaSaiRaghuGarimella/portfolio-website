@@ -9,7 +9,12 @@ const About = () => {
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
                 </div>
                 <p className="text-xl mt-14 ml-4">
-                    I have 1 year 4 months of real time experience in Java Backend technologies like Spring, Spring Boot, JDBC, Hibernate, ORM, Spring MVC, RESTFUL Services, MS SQL Server. Currently, I am learning React Js and building some projects on HTML, CSS, JavaScript, Tailwind CSS, React JS.
+                Aspiring for the position of Web Developer where I can
+                use my extensive knowledge of programming languages and 
+                frameworks to develop efficient web applications. I have 
+                good knowledge on technologies like HTML, CSS, Javascript,
+                Tailwind CSS, Styled Components, React JS, Redux, Firebase,
+                Java, JDBC, Spring Boot, RESTFUL Services, MS SQL.
                 </p>
 
                 <br />
